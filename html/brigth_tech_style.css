@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, #3d3dd1, #42a042);
+  text-align: center;
+  padding: 10px 0;
+}
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: column;
+  font-size: 16px;
+}
+
+section p {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(9, 236, 160, 0.2);
+  padding: 10px;
+  background-color: #bbeeeb;
+}
+section h2 {
+  background-color: #c9cce4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(7, 99, 236, 0.2);
+  padding: 10px;
+}
+section ul {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(9, 236, 160, 0.2);
+  padding: 10px;
+  background-color: #bce7c6;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}/*# sourceMappingURL=brigth_tech_style.css.map */

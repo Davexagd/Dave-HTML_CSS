@@ -1,0 +1,71 @@
+// Aqui esta la variable que contiene todos los atributos del estilo de la página
+// Nota: al principio el archivo original era .css pero para que reconociera a sass
+// tuve que cambiarlo a .scss
+$font-family: Arial, Helvetica, sans-serif;
+$header-bg: linear-gradient(to right, #3d3dd1, #42a042);
+$box-shadow: 0 4px 8px #09eca033;
+$section-bg: #bbeeeb;
+$section-h2-bg: #c9cce4;
+$section-ul-bg: #bce7c6;
+$footer-bg: #f1f1f1;
+$border-radius: 10px;
+$padding: 10px;
+
+// Aqui se encuentran los estilos aplicados a todas las secciones de la página
+// es decir a el cuerpo, encabezado, secciones, titulos, parrafos y pie de página.
+// Cada sección va ir marcada segun su atributo. 
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+}
+
+// Encabezado
+header {
+    background: $header-bg;
+    text-align: center;
+    padding: $padding 0;
+}
+
+// Estilo del texto en la sección principal
+main {
+    p {
+        font-family: $font-family;
+        text-align: column;
+        font-size: 16px;
+    }
+}
+
+// Secciones
+section {
+    p {
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        padding: $padding;
+        background-color: $section-bg;
+    }
+
+    h2 {
+        background-color: $section-h2-bg;
+        border-radius: $border-radius;
+        box-shadow: 0 4px 8px #0763ec33;
+        padding: $padding;
+    }
+
+    ul {
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        padding: $padding;
+        background-color: $section-ul-bg;
+    }
+}
+
+// Pie de página
+footer {
+    background-color: $footer-bg;
+    text-align: center;
+    padding: $padding 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
